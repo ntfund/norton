@@ -1,0 +1,183 @@
+{
+    "name" : "Norton",
+    "appid" : "__UNI__EEAF8FE",
+    "description" : "",
+    "versionName" : "1.1.1",
+    "versionCode" : 111,
+    "transformPx" : false,
+    /* 5+App特有相关 */
+    "app-plus" : {
+        "usingComponents" : true,
+        "nvueStyleCompiler" : "uni-app",
+        "compilerVersion" : 3,
+        "ramcachemode" : "enable",
+        "splashscreen" : {
+            "alwaysShowBeforeRender" : true,
+            "waiting" : true,
+            "autoclose" : true,
+            "delay" : 0
+        },
+        /* 模块配置 */
+        "modules" : {
+            "Push" : {},
+            "VideoPlayer" : {},
+            "Record" : {},
+            "FaceID" : {},
+            "Fingerprint" : {},
+            "Camera" : {},
+            "FacialRecognitionVerify" : {},
+            "SQLite" : {},
+            "Barcode" : {},
+            "Share" : {}
+        },
+        /* 应用发布信息 */
+        "distribute" : {
+            /* android打包配置 */
+            "android" : {
+                "permissions" : [
+                    "<uses-feature android:name=\"android.hardware.camera\"/>",
+                    "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+                    "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+                    "<uses-permission android:name=\"android.permission.INTERNET\"/>",
+                    "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.USE_FINGERPRINT\"/>",
+                    "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+                    "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" />  ",
+                    "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />",
+                    "<uses-permission android:name=\"android.permission.RECEIVE_BOOT_COMPLETED\" />",
+                    "<uses-permission android:name=\"android.permission.GET_TASKS\" />",
+                    "<uses-permission android:name=\"android.permission.BLUETOOTH\" />",
+                    "<uses-permission android:name=\"android.permission.BLUETOOTH_ADMIN\" />",
+                    "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\" />",
+                    "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\" />",
+                    "<uses-permission android:name=\"android.permission.BROADCAST_PACKAGE_ADDED\" />",
+                    "<uses-permission android:name=\"android.permission.BROADCAST_PACKAGE_CHANGED\" />",
+                    "<uses-permission android:name=\"android.permission.BROADCAST_PACKAGE_INSTALL\" />",
+                    "<uses-permission android:name=\"android.permission.BROADCAST_PACKAGE_REPLACED\" />",
+                    "<uses-permission android:name=\"android.permission.RESTART_PACKAGES\" />",
+                    "<uses-permission android:name=\"android.permission.REQUEST_INSTALL_PACKAGES\" />"
+                ],
+                "abiFilters" : [ "armeabi-v7a", "arm64-v8a", "x86" ],
+                "schemes" : "norton,test,hbuilder,myuniapp,mySchema"
+            },
+            /* ios打包配置 */
+            "ios" : {
+                "dSYMs" : false,
+                "urltypes" : "norton,test,hbuilder,myuniapp,mySchema",
+                "urlschemewhitelist" : "baidumap,iosamap,tpoutside,tpdapp",
+                "privacyDescription" : {
+                    "NSCalendarsUsageDescription" : "",
+                    "NSCameraUsageDescription" : "该应用需要你的相机，以便你拍摄上传用户信息",
+                    "NSLocationWhenInUseUsageDescription" : "",
+                    "NSMicrophoneUsageDescription" : "该应用需要使用你的麦克风，以便社交语音播放",
+                    "NSFaceIDUsageDescription" : "该应用需要使用你的Face ID，以便进行身份识别",
+                    "NSPhotoLibraryUsageDescription" : "该应用需要读取你的相册，以便为你编辑用户信息",
+                    "NSPhotoLibraryAddUsageDescription" : "该应用需要读取你的相册，以便为你编辑用户信息",
+                    "NSAppleMusicUsageDescription" : "该应用需要访问你的媒体资料库，以便在社交中使用"
+                },
+                "idfa" : false
+            },
+            "google" : {
+                "permissions" : [
+                    //这里添加需要的Android权限
+                    "<uses-permission android:name=\"android.permission.REQUEST_INSTALL_PACKAGES\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>"
+                ]
+            },
+            /* SDK配置 */
+            "sdkConfigs" : {
+                "ad" : {},
+                "push" : {
+                    "unipush" : {
+                        "offline" : true,
+                        "icons" : {
+                            "small" : {
+                                "ldpi" : "static/img/chain/nrt-on.png",
+                                "mdpi" : "static/img/chain/nrt-on.png",
+                                "hdpi" : "static/img/chain/nrt-on.png",
+                                "xhdpi" : "static/img/chain/nrt-on.png",
+                                "xxhdpi" : "static/img/chain/nrt-on.png"
+                            }
+                        }
+                    }
+                },
+                "share" : {}
+            },
+            "icons" : {
+                "android" : {
+                    "hdpi" : "unpackage/res/icons/72x72.png",
+                    "xhdpi" : "unpackage/res/icons/96x96.png",
+                    "xxhdpi" : "unpackage/res/icons/144x144.png",
+                    "xxxhdpi" : "unpackage/res/icons/192x192.png"
+                },
+                "ios" : {
+                    "appstore" : "unpackage/res/icons/1024x1024.png",
+                    "ipad" : {
+                        "app" : "unpackage/res/icons/76x76.png",
+                        "app@2x" : "unpackage/res/icons/152x152.png",
+                        "notification" : "unpackage/res/icons/20x20.png",
+                        "notification@2x" : "unpackage/res/icons/40x40.png",
+                        "proapp@2x" : "unpackage/res/icons/167x167.png",
+                        "settings" : "unpackage/res/icons/29x29.png",
+                        "settings@2x" : "unpackage/res/icons/58x58.png",
+                        "spotlight" : "unpackage/res/icons/40x40.png",
+                        "spotlight@2x" : "unpackage/res/icons/80x80.png"
+                    },
+                    "iphone" : {
+                        "app@2x" : "unpackage/res/icons/120x120.png",
+                        "app@3x" : "unpackage/res/icons/180x180.png",
+                        "notification@2x" : "unpackage/res/icons/40x40.png",
+                        "notification@3x" : "unpackage/res/icons/60x60.png",
+                        "settings@2x" : "unpackage/res/icons/58x58.png",
+                        "settings@3x" : "unpackage/res/icons/87x87.png",
+                        "spotlight@2x" : "unpackage/res/icons/80x80.png",
+                        "spotlight@3x" : "unpackage/res/icons/120x120.png"
+                    }
+                }
+            }
+        },
+        "nativePlugins" : {}
+    },
+    /* 快应用特有相关 */
+    "quickapp" : {},
+    /* 小程序特有相关 */
+    "mp-weixin" : {
+        "appid" : "",
+        "setting" : {
+            "urlCheck" : false
+        },
+        "usingComponents" : true
+    },
+    "mp-alipay" : {
+        "usingComponents" : true
+    },
+    "mp-baidu" : {
+        "usingComponents" : true
+    },
+    "mp-toutiao" : {
+        "usingComponents" : true
+    },
+    "uniStatistics" : {
+        "enable" : false
+    },
+    "vueVersion" : "3",
+    "h5" : {
+        "unipush" : {
+            "enable" : false
+        }
+    },
+    "locale" : "auto"
+}
+/* SDK配置 *//* 快应用特有相关 *//* 小程序特有相关 */
+

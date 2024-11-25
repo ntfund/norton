@@ -1,0 +1,12 @@
+{
+	"name": "vue-buffer",
+	"version": "0.0.1",
+	"description": "Buffer in vue",
+	"main": "buffer.js",
+	"keywords": [
+		"buffer",
+		"vue"
+	],
+	"author": "pcl-aacin",
+	"license": "GNU-3"
+}

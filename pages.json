@@ -1,0 +1,1263 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages				
+		{
+			"path" : "pages/index/blank",
+			"style" : 
+			{
+				"navigationBarTitleText" : "NORTON"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"app-plus": {
+					"titleNView": false
+				}
+				// "transparentTitle": "auto"
+			}
+		},
+		{
+			"path" : "pages/index/detail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+			"path": "pages/wallet/index",
+			"style": {
+				"navigationBarTitleText": "钱包",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/chat/index/index",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false,
+					"background": "#fff"
+				}
+			}
+		},
+		{
+			"path": "pages/financial/index",
+			"style": {
+				"navigationBarTitleText": "理财",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false,
+					"softinputMode": "adjustResize"
+				},
+				// "navigationStyle": "custom", // 隐藏系统导航栏
+				"navigationBarTextStyle": "white" // 状态栏字体为白色
+				// "navigationBarBackgroundColor":"#7761ff",
+				// "navigationBarTextStyle":"white"
+				// "backgroundColorTop":"#7761ff",
+				// "backgroundColorBottom":"#fff"
+			}
+		},
+		{
+			"path": "pages/explore/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false,
+					"navigationBarTextStyle": "white" // 状态栏字体为白色
+				}
+			}
+		},
+		{
+			"path": "pages/explore/block/block",
+			"style": {
+				"navigationBarTitleText": "区块详情",
+				"enablePullDownRefresh": false				
+			}
+		},
+		{
+			"path": "pages/explore/tx/tx",
+			"style": {
+				"navigationBarTitleText": "哈希详情",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/wallet/walletManager",
+			"style": {
+				"navigationBarTitleText": "钱包管理",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/wallet/receiver",
+			"style": {
+				"navigationBarTitleText": "收款",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+
+		}, {
+			"path": "pages/wallet/transfer",
+			"style": {
+				"navigationBarTitleText": "转账",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/wallet/swap",
+			"style": {
+				"navigationBarTitleText": "闪兑",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+
+		}, {
+			"path": "pages/chat/contact/contact",
+			"style": {
+				"navigationBarTitleText": "通讯录",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/chat/profile/profile",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+
+		}, {
+			"path": "pages/chat/profile/qrcode",
+			"style": {
+				"navigationBarTitleText": "二维码名片",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+
+		}, {
+			"path": "pages/chat/profile/changeName",
+			"style": {
+				"navigationBarTitleText": "更改名字",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+
+		}, {
+			"path": "pages/chat/contact/add",
+			"style": {
+				"navigationBarTitleText": "添加朋友",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+
+		}, {
+			"path": "pages/chat/contact/group",
+			"style": {
+				"navigationBarTitleText": "发起群聊",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+
+		}, {
+			"path": "pages/chat/group/index",
+			"style": {
+				"navigationBarTitleText": "群聊",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/chat/talk/talk",
+			"style": {
+				"navigationBarTitleText": "聊天",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false,
+					"softinputMode": "adjustResize"
+				}
+			}
+
+		}, {
+			"path": "pages/chat/redEnvelope/redEnvelope",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "发红包",
+				"backgroundColorTop": "#cf3c35",
+				"backgroundColorBottom": "#fff",
+				"app-plus": {
+					"softinputNavBar": "none",
+					"bounce": "none"
+				}
+			}
+
+		}, {
+			"path": "pages/chat/redEnvelope/detail",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#cf3c35",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "红包",
+				"backgroundColorTop": "#cf3c35",
+				"backgroundColorBottom": "#fff",
+				"app-plus": {
+					"softinputNavBar": "none",
+					"bounce": "none"
+				}
+			}
+
+		}, {
+			"path": "pages/chat/redEnvelope/transfer",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#eeeeee",
+				"backgroundColorTop": "#eeeeee",
+				"backgroundColorBottom": "#fff"
+			}
+
+		}, {
+			"path": "pages/chat/redEnvelope/red_transfer",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+
+		}, {
+			"path": "pages/chat/redEnvelope/red_received",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+
+		}, {
+			"path": "pages/api/api",
+			"style": {
+				"navigationBarTitleText": "API",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/analyst/analyst",
+			"style": {
+				"navigationBarTitleText": "分析师",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ffffff",				
+				"app-plus": {
+					"titleNView": false,
+					"navigationBarTextStyle": "white" // 状态栏字体为白色
+				}
+			}
+
+		}, {
+			"path": "pages/analyst/detail",
+			"style": {
+				"navigationBarTitleText": "分析师详情",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+
+		}, {
+			"path": "pages/api/detail",
+			"style": {
+				"navigationBarTitleText": "API详情",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+
+		}, {
+			"path": "pages/profile/profile",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+
+		}, {
+			"path": "pages/profile/bill",
+			"style": {
+				"navigationBarTitleText": "账单",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+
+		}, {
+			"path": "pages/news/news",
+			"style": {
+				"navigationBarTitleText": "公告列表",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+
+		}, {
+			"path": "pages/news/detail",
+			"style": {
+				"navigationBarTitleText": "详情",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+
+		}, {
+			"path": "pages/market/market",
+			"style": {
+				"navigationBarTitleText": "C2C交易",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+
+		}, {
+			"path": "pages/market/buy/buy",
+			"style": {
+				"navigationBarTitleText": "C2C交易",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+
+		}, {
+			"path": "pages/market/buy/buying",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/market/cancel",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/market/order",
+			"style": {
+				"navigationBarTitleText": "订单",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+
+		}, {
+			"path": "pages/market/profile",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+
+		}, {
+			"path": "pages/market/payment/payment",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/market/payment/add",
+			"style": {
+				"navigationBarTitleText": "添加收款账号",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/market/payment/detail/bank",
+			"style": {
+				"navigationBarTitleText": "银行卡",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/market/payment/detail/alipay",
+			"style": {
+				"navigationBarTitleText": "支付宝",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/market/payment/detail/weixin",
+			"style": {
+				"navigationBarTitleText": "微信",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/market/payment/edit/bank",
+			"style": {
+				"navigationBarTitleText": "修改银行卡",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/market/payment/edit/alipay",
+			"style": {
+				"navigationBarTitleText": "修改支付宝",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/market/payment/edit/weixin",
+			"style": {
+				"navigationBarTitleText": "修改微信",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/market/certificate/certificate",
+			"style": {
+				"navigationBarTitleText": "实名认证",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/kline/kline",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#000",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "K线",
+				"backgroundColorTop": "#000",
+				"backgroundColorBottom": "#000"
+			}
+
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+
+		}, {
+			"path": "pages/login/register",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+
+		}, {
+			"path": "pages/chat/user/info",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "white",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+
+		}, {
+			"path": "pages/chat/user/remark",
+			"style": {
+				"navigationBarTitleText": "设置备注",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "white",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+
+		}, {
+			"path": "pages/chat/contact/new",
+			"style": {
+				"navigationBarTitleText": "新的朋友",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+
+		}, {
+			"path": "pages/chat/user/friend",
+			"style": {
+				"navigationBarTitleText": "好友申请",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/chat/user/share",
+			"style": {
+				"navigationBarTitleText": "选择一个聊天",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/chat/group/info",
+			"style": {
+				"navigationBarTitleText": "聊天信息(0)",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+
+		}, {
+			"path": "pages/chat/group/more",
+			"style": {
+				"navigationBarTitleText": "聊天成员(0)",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/chat/group/invite",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/chat/group/changeName",
+			"style": {
+				"navigationBarTitleText": "设置群名称",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/chat/group/remove",
+			"style": {
+				"navigationBarTitleText": "删除群成员",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/chat/redEnvelope/red_packet",
+			"style": {
+				"navigationBarTitleText": "发红包",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ffffff",
+				"backgroundColorTop": "#cf3c35"
+			}
+
+		}, {
+			"path": "pages/chat/recharge/recharge",
+			"style": {
+				"navigationBarTitleText": "充币",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/chat/withdraw/withdraw",
+			"style": {
+				"navigationBarTitleText": "提币",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path" : "pages/wallet/import",
+			"style" : 
+			{
+				"navigationBarTitleText" : "导入钱包",
+				"enablePullDownRefresh" : false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path" : "pages/wallet/detail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "钱包详情",
+				"enablePullDownRefresh" : false,				
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path" : "pages/wallet/tokens",
+			"style" : 
+			{
+				"navigationBarTitleText" : "选择代币",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/wallet/tokenDetail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "Token详情",
+				"enablePullDownRefresh" : false,
+				"navigationBarBackgroundColor": "#ffffff",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path" : "pages/wallet/txDetail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "交易详情",
+				"enablePullDownRefresh" : false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path" : "pages/market/certificate/pending",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationBarBackgroundColor": "#ffffff",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path" : "pages/market/certificate/success",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+			"path" : "pages/market/plan/plan",
+			"style" : 
+			{
+				"navigationBarTitleText" : "C2C商家计划",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/market/shop/manager",
+			"style" : 
+			{
+				"navigationBarTitleText" : "商家管理中心",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/market/shop/push",
+			"style" : 
+			{
+				"navigationBarTitleText" : "发布委托",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/market/sell/sell",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path" : "pages/market/buy/pay",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationBarBackgroundColor": "#ffffff",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path" : "pages/market/buy/paid",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationBarBackgroundColor": "#ffffff",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path" : "pages/market/buy/success",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationBarBackgroundColor": "#ffffff",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path" : "pages/market/shop/order",
+			"style" : 
+			{
+				"navigationBarTitleText" : "商家订单",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/market/shop/buy/paid",
+			"style" : 
+			{
+				"navigationBarTitleText" : "待放币-商家系统",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/market/shop/buy/success",
+			"style" : 
+			{
+				"navigationBarTitleText" : "交易完成-商家系统",
+				"enablePullDownRefresh" : false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path" : "pages/market/sell/pay",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path" : "pages/market/sell/paid",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path" : "pages/market/sell/success",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path" : "pages/market/shop/sell/pay",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path" : "pages/market/shop/sell/paid",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path" : "pages/market/shop/sell/success",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path" : "pages/test/test",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/chat/history/history",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path": "pages/index/lq-upgrade/upgrade",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none",
+					"animationType": "none", //取消窗口动画
+					"background": "transparent" // 设置背景透明
+				}
+			}
+		},
+		{
+			"path" : "pages/financial/huoqi/huoqi",
+			"style" : 
+			{
+				"navigationBarTitleText" : "活期申购",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path" : "pages/financial/dingqi/dingqi",
+			"style" : 
+			{
+				"navigationBarTitleText" : "定期申购",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path" : "pages/wallet/create/create",
+			"style" : 
+			{
+				"navigationBarTitleText" : "创建钱包",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path" : "pages/wallet/backup/backup",
+			"style" : 
+			{
+				"navigationBarTitleText" : "备份助记词",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path" : "pages/wallet/backup/tip",
+			"style" : 
+			{
+				"navigationBarTitleText" : "备份助记词安全提醒",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path" : "pages/wallet/backup/verify",
+			"style" : 
+			{
+				"navigationBarTitleText" : "备份助记词验证",
+				"app-plus": {
+					"titleNView": false
+				}
+				
+			}
+		},
+		{
+			"path" : "pages/wallet/export/mnemonic",
+			"style" : 
+			{
+				"navigationBarTitleText" : "导出助记词",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path" : "pages/wallet/export/privateKey",
+			"style" : 
+			{
+				"navigationBarTitleText" : "导出私钥",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path" : "pages/wallet/export/keystore",
+			"style" : 
+			{
+				"navigationBarTitleText" : "导出keystore",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path" : "pages/financial/orders/orders",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path" : "pages/profile/withdraw",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path" : "pages/profile/transfer",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path" : "pages/index/about",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path" : "pages/chat/user/add_friend",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+			
+		},
+		{
+			"path" : "pages/chat/group/notice",
+			"style" : 
+			{
+				"navigationBarTitleText" : "群公告",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path" : "pages/chat/group/manager",
+			"style" : 
+			{
+				"navigationBarTitleText" : "群管理",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path" : "pages/chat/group/members",
+			"style" : 
+			{
+				"navigationBarTitleText" : "选择成员",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path" : "pages/chat/group/groupManager",
+			"style" : 
+			{
+				"navigationBarTitleText" : "设置群管理员",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path" : "pages/chat/group/forbidden",
+			"style" : 
+			{
+				"navigationBarTitleText" : "群内禁言",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path" : "pages/login/welcome",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path" : "pages/wallet/import/type",
+			"style" : 
+			{
+				"navigationBarTitleText" : "导入方式",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path" : "pages/wallet/import/sync",
+			"style" : 
+			{
+				"navigationBarTitleText" : "钱包同步",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path" : "pages/login/loading",
+			"style" : 
+			{
+				"navigationBarTitleText" : "loading",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path" : "pages/market/certificate/home",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path" : "pages/market/certificate/identity",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path" : "pages/market/shop/name",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/market/shop/cancel",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/chat/group/qrcode",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path" : "pages/chat/group/changeGroupNickName",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/chat/history/search",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/chat/group/show",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/chat/group/new",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/profile/invite",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/setting/uint",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/chat/talk/prevvideo",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#D7D7D7",
+		"selectedColor": "#7F17FE",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"height": "55px",
+		"spacing": "7px",
+		"iconWidth": "18px",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar/company@2x.png",
+				"selectedIconPath": "static/tabbar/company-fill@2x.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/chat/index/index",
+				"iconPath": "static/tabbar/contacts@2x.png",
+				"selectedIconPath": "static/tabbar/contacts-fill@2x.png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/financial/index",
+				"iconPath": "static/tabbar/inquiry-template@2x.png",
+				"selectedIconPath": "static/tabbar/inquiry-template-fill@2x.png",
+				"text": "理财"
+			},
+			{
+				"pagePath": "pages/explore/index",
+				"iconPath": "static/tabbar/Exportservices@2x.png",
+				"selectedIconPath": "static/tabbar/Exportservices-fill@2x.png",
+				"text": "浏览"
+			},
+			{
+				"pagePath": "pages/wallet/index",
+				"iconPath": "static/tabbar/wallet@2x.png",
+				"selectedIconPath": "static/tabbar/wallet_1@2x.png",
+				"text": "钱包"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "Norton",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"bounce": "none",
+			"scrollIndicator": "none",
+			"softinputMode": "adjustResize",
+			"titleNView": false,
+			"softinputNavBar": "none"
+		}
+	},
+	"uniIdRouter": {},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^uni-(.*)": "@/components/uni-$1.vue", // 匹配components目录内的vue文件
+			"^vue-file-(.*)": "packageName/path/to/vue-file-$1.vue", // 匹配node_modules内的vue文件
+			"^com-(.*)-(.*)": "@/components/com-$1/$2.vue",
+			"^com-(.*)": "@/components/com-$1/com-$1.vue",
+			"^u-(.*)": "uview-plus/components/u-$1/u-$1.vue",
+			"^up-(.*)": "uview-plus/components/u-$1/u-$1.vue"
+		}
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+
+
+}

@@ -1,0 +1,20 @@
+{
+	"name": "nrt_tp",
+	"id": "nrt-tp",
+	"version": "1.0.0",
+	"description": "TP钱包登录插件",
+	"_dp_type":"nativeplugin",
+	"_dp_nativeplugin":{
+		"android": {
+			"plugins": [
+				{
+					"type": "module",
+					"name": "nrt-tp",
+					"class": "com.example.nrt_tp.TpModule"
+				}
+			],
+			"integrateType": "aar",
+			"minSdkVersion" : 16
+		}
+	}
+}
